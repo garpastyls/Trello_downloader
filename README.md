@@ -2,7 +2,7 @@
 
 This project is designed to download JSON files with actions and attachments from Trello boards, bypassing the 1000-action limit.
 
-## 🔧 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -22,7 +22,7 @@ This project is designed to download JSON files with actions and attachments fro
    pip install -r requirements.txt
    ```
 
-## ⚙️ Configuration
+## Configuration
 
 1. **Edit the `config.py` file in the project's root directory** and add the following:
    ```python
@@ -55,7 +55,7 @@ This project is designed to download JSON files with actions and attachments fro
    - Folder with attachments (`/trello_downloader/trello_data/BOARD_IDS/attachments/CARD_IDS`)
    - All data is stored in `trello_data/{board_id}`
 
-## 🛠 Additional Information
+## Additional Information
 - The script processes file names to remove invalid characters.
 - Built-in delays help avoid exceeding Trello API rate limits.
 
