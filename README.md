@@ -6,8 +6,8 @@ This project is designed to download JSON files with actions and attachments fro
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/trello-downloader.git
-   cd trello-downloader
+   git clone https://github.com/garpastyls/Trello_downloader.git
+   cd Trello_downloader
    ```
 
 2. **Create a virtual environment (recommended)**:
@@ -24,7 +24,7 @@ This project is designed to download JSON files with actions and attachments fro
 
 ## ⚙️ Configuration
 
-1. **Create a `config.py` file in the project's root directory** and add the following:
+1. **Edit the `config.py` file in the project's root directory** and add the following:
    ```python
    API_KEY = "your_trello_api_key"
    API_TOKEN = "your_trello_api_token"
@@ -50,15 +50,15 @@ This project is designed to download JSON files with actions and attachments fro
    python download_trello_json_and_attachment.py
    ```
 
-## ▶️ Output
-   - JSON file with actions (`board_{id}_actions.json`)
-   - Folder with attachments (`attachments/{card_id}/{file_name}`)
+## Output
+   - JSON file with actions (`/trello_downloader/trello_data/BOARD_IDS/json`)
+   - Folder with attachments (`/trello_downloader/trello_data/BOARD_IDS/attachments/CARD_IDS`)
    - All data is stored in `trello_data/{board_id}`
 
 ## 🛠 Additional Information
 - The script processes file names to remove invalid characters.
 - Built-in delays help avoid exceeding Trello API rate limits.
 
-## 📜 License
+## License
 MIT License
 
