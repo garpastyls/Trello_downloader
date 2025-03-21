@@ -53,8 +53,7 @@ This project is designed to download JSON files with actions and attachments fro
 ## Output
    - JSON file with actions (`/trello_downloader/trello_data/BOARD_IDS/json`)
    - Folder with attachments (`/trello_downloader/trello_data/BOARD_IDS/attachments/CARD_IDS`)
-   - All data is stored in `trello_data/{board_id}`
-
+     
 ## Additional Information
 - The script processes file names to remove invalid characters.
 - Built-in delays help avoid exceeding Trello API rate limits.
